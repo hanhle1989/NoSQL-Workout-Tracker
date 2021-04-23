@@ -1,7 +1,7 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "workout_tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "workout tracker app",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,11 +9,14 @@
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-  "author": "",
+  "author": "Hanh Le",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.12.5",
     "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": "8.9.3"
   }
 }
