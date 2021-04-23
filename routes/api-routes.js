@@ -1,5 +1,5 @@
 module.exports = function (app) {
-    const Workout = require("../models/workout");
+    const Workout = require("../models/workouts");
 
     app.get("/api/workouts", (req, res) => {
         Workout.find({})
